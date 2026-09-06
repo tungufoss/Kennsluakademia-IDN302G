@@ -1,0 +1,111 @@
+\documentclass{kennsluakademia_conf}
+
+\address{Veröld Háskóla Íslands}
+\date{20. nóvember 2026}
+\keywords{upplýsingaverkfræði, rauntengt nám, fagleg vinnubrögð, stigvaxandi nám, leiðsagnarmat}
+\title{Endurhönnun Upplýsingaverkfræði: Stigvaxandi þróun faglegra vinnubragða}
+
+\author{%
+Helga Ingimundardóttir\autid{}{0000-0002-2780-3546}%
+}
+
+\affil{}{Iðnaðarverkfræði-, vélaverkfræði- og tölvunarfræðideild (IVT), Háskóli Íslands}
+
+
+\newcommand{\callout}[2]{%
+  \par\medskip
+  \noindent
+  \begingroup
+  \setlength{\fboxsep}{8pt}%
+  \setlength{\fboxrule}{0.8pt}%
+  \fcolorbox{darkblue}{lightblue}{%
+    \begin{minipage}{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}
+      \textbf{\color{darkblue}#1}\par
+      \vspace{0.35em}
+      #2
+    \end{minipage}%
+  }%
+  \endgroup
+  \par\medskip
+}
+
+
+\AtBeginDocument{%
+  \providecommand{\doi}[1]{\href{https://doi.org/#1}{doi: #1}}%
+  \renewcommand{\doi}[1]{\href{https://doi.org/#1}{doi: #1}}%
+}
+
+\begin{document}
+
+\maketitle
+
+\section{Inngangur}
+Verkefnið fjallar um yfirstandandi endurhönnun skyldunámskeiðsins Upplýsingaverkfræði (IÐN302G) á öðru ári í grunnnámi í iðnaðarverkfræði. Námskeiðið byggir upp tölvu- og gagnalæsi með áherslu á gagnaöflun, gagnavinnslu, GitHub og miðlun niðurstaðna. Námsgögn og námsfyrirkomulag eru birt á opnum námskeiðsvef, \url{https://hi-idn.github.io/IDN302G/}.
+
+Endurhönnunin byggir á lærdómi úr lengra komnu valnámskeiði í Viðskiptagreind (IÐN610M) fyrir nemendur á þriðja námsári og meistaranema. Þar vinna nemendur með opnari greiningarverkefni, flóknari raungögn frá samstarfsaðila og hagnýtar aðferðir gervigreindar, auk þess að miðla niðurstöðum til ólíkra hagaðila, þar á meðal stjórnenda fyrirtækja. Markmiðið er að kenna fleiri grunnþætti faglegs vinnuferlis fyrr og á byrjendavænan hátt, svo í framhaldsnámskeiðinu skapist meira rými til að takast á við flókin gagnasöfn, opnari vandamál og faglega miðlun niðurstaðna.
+
+Í Upplýsingaverkfræði er því lögð áhersla á vinnuferlið sjálft: að móta spurningar, afla gagna, skipuleggja þau, greina þau, gera vinnuna endurtakanlega og miðla niðurstöðum með skýrum hætti. Námskeiðið er jafnframt stílað inn á að þessi vinnubrögð nýtist í fjölmörgum öðrum námskeiðum á námsleiðinni, ekki aðeins í Viðskiptagreind. Nemendur vinna með opin og aðgengileg gögn í stað þess að vinna beint með fyrirtæki eða stofnun. Þannig er leitast við að skapa faglega miðaða, en aðgengilega, inngöngu inn í gagnadrifna verkfræðilega starfshætti.
+
+Kennslufræðilega má skilja þessa hönnun sem form stoðkennslu, þar sem stuðningur er lagaður að stöðu nemenda, dreginn stigvaxandi til baka og ábyrgð á vinnuferlinu færð yfir til þeirra \citep{VanDePolVolmanBeishuizen2010Scaffolding}. Samræming námsmarkmiða, endurtekinna verkefna og matsviðmiða byggir jafnframt á hugmyndum um uppbyggilega samhæfingu (e. constructive alignment), þar sem athafnir nemenda og námsmat eiga að kalla fram þá frammistöðu sem hæfniviðmið lýsa \citep{Biggs1996ConstructiveAlignment}.
+
+\callout{Meginspurning kennsluhönnunarinnar}{Hvernig geta nemendur byrjað að æfa rauntengd og fagleg vinnubrögð í gagnavinnu snemma í námsleiðinni án þess að verða yfir\-bugaðir af því flækjustigi og þeirri sjálfstæðu ábyrgð sem vænst er í lengra komnu námskeiði?}
+
+
+
+
+\section{Hvað er sótt í Viðskiptagreind?}
+
+Viðskiptagreind var endurhönnuð í kringum samfellt verkefnasamhengi, sameiginleg matsviðmið, sýnilega samvinnu og lokaverkefni þar sem fyrri greiningar eru endurskoðaðar \citep{Ingimundardottir2025Setberg,Ingimundardottir2026Industry}. Námsmatið er leiðsagnarmat (e. formative assessment): fyrstu verkefni skapa rými fyrir tilraunir en endurgjöf og óleyst atriði leiða að heildstæðari lokaniðurstöðu \citep{Sadler1989FormativeAssessment}.
+
+Reynslan sýndi jafnframt að nemendur þurftu að tileinka sér lengra komið greiningarefni samhliða GitHub, pull-request hefðum og samvinnurýni. Það varð kveikjan að því að færa þessi vinnubrögð fyrr inn í Upplýsingaverkfræði, með styttri verkefnalotum og skýrari stoðum.
+
+Nálgunin samræmist CDIO (Conceive--Design--Implement--Operate), alþjóðlegum ramma fyrir verkfræðimenntun sem tengir fræðilegan grunn við mótun, hönnun, útfærslu og rekstur lausna \citep{CDIOInitiativeStandards30,EdstromKolmos2014PBLCDIO}. Hún byggir jafnframt á þeirri meginreglu að kynna samvinnuferli fyrst í stuttum og afmörkuðum lotum áður en meiri áhersla er lögð á gæði greiningar, rýni og samvinnu \citep{Ingimundardottir2026GitHub}.
+
+
+\section{Sex stigvaxandi lotur og samþættandi ör-Capstone}
+
+Í Upplýsingaverkfræði er þessi stigvaxandi nálgun útfærð í sex lotum og sjöundu samþættandi lotunni, ör-Capstone. Nýtt fræðilegt efni bætist við í hverri lotu en sömu faglegu vinnubrögð eru æfð í nýju samhengi, með auknu umfangi og sjálfstæði. Þannig fá nemendur endurtekin tækifæri til að æfa endurtakanleika, jafningjarýni, skjalfestingu og ábyrg skil, fá endurgjöf og nýta hana í næstu lotu.
+
+Að lokinni hverri lotu fer kennari yfir skýrslur teyma, gagnasöfn, kóða, skjalfestingu og virkni í PRs; greinir mynstur þvert á teymi; skilar sameiginlegri endurgjöf og völdum PR-tengdum mælingum; og tengir athuganirnar við gæðaviðmið sem nemendur geta nýtt í næstu lotu. Endurgjöf hefur fyrst leiðsagnargildi þegar nemendur geta túlkað hana, brugðist við henni og nýtt í síðari vinnu; því er næsta notkunartækifæri innbyggt í verkefnaloturnar \citep{BoudMolloy2013FeedbackDesign,CarlessBoud2018FeedbackLiteracy}.
+
+Sjöunda lotan er ör-Capstone þar sem nemendur endurskoða, tengja saman og bæta vinnu úr fyrri lotum. Uppsöfnuð uppbygging breytir þannig endurgjöf úr afturvirkum athugasemdum í upplýsingar sem geta haft áhrif á næstu skref nemenda.
+
+
+
+\begin{figure*}[t]
+\centering
+\input{progressive_modules_figure.tikz}
+\caption{Yfirlit yfir sex stigvaxandi lotur Upplýsingaverkfræði og samþættandi ör-Capstone-lotu.}
+\label{fig:progressive-modules}
+\end{figure*}
+
+
+\section{Sýnileg framvinda og gæðaviðmið}
+
+PRs skilja eftir sig ummerki um vinnuferli sem lokaskýrslur einar og sér sýna ekki. Þau geta tengt tillögu að breytingu við tilgang hennar, umræðu jafningja, endurskoðun og ákvörðun um samþykki eða samþættingu. Í núverandi hönnun námskeiðsins gera þessi ummerki hluta af röksemdafærslu, gagnrýni, viðbrögðum við endurgjöf og ábyrgum skilum sýnilega til skoðunar.
+
+Sýnileiki er þó ekki það sama og gæði. Mikill fjöldi \emph{commits}, athugasemda eða PRs er ekki sönnun þess að nemandi skilji fræðilegan grunn verkefnisins, noti gögn og heimildir með viðeigandi hætti eða rýni vinnu annarra af dýpt. Mælingar eru því rammaðar inn sem leiðsagnarspeglar, ekki frammistöðueinkunnir. Ferligögnin eru ekki staðgengill faglegs mats, heldur tilefni til að bera vinnu saman við viðmið og þróa matsdómgreind nemenda \citep{TaiEtAl2018EvaluativeJudgement}.
+
+Í endurgjöf til nemenda eftir hverja lotu er gagnlegt að greina á milli þriggja laga:
+
+\begin{enumerate}
+  \item \textbf{Sýnileg virkni:} Hvaða framlög, rýni og viðbrögð sjást í vinnuferlinu?
+  \item \textbf{Gæði vinnubragða:} Eru PRs afmörkuð? Er rýnin efnisleg? Er brugðist við endurgjöf? Getur annar aðili endurtekið eða tekið við vinnunni?
+  \item \textbf{Gæði greiningar:} Er fræðileg röksemdafærsla trúverðug? Eru aðferðir viðeigandi? Eru niðurstöður studdar gögnum? Er óvissa og takmörkunum miðlað skýrt?
+\end{enumerate}
+
+Þessi aðgreining gefur matsdómgreind hagnýtt hlutverk í námskeiðinu. Nemendur þurfa meira en matsviðmið afhent á blaði: þeir þurfa endurtekna reynslu af því að bera eigin vinnu saman við gæðaviðmið, ræða hvað felst í gæðum og nýta endurgjöf í síðari verkefnum \citep{CarlessBoud2018FeedbackLiteracy}. Jafningjarýni hefur hér sérstakt kennslufræðilegt gildi, þar sem framleiðsla endurgjafar krefst þess að nemendur beiti viðmiðum, rökstyðji mat sitt og endurskoði eigin vinnu í ljósi samanburðarins \citep{NicolThomsonBreslin2014PeerReviewFeedback}. Sameiginleg samantekt kennara þvert á teymi getur síðan gert óorðuð fagleg viðmið sýnilegri.
+
+\callout{Mælingar eru vísbendingar, ekki einkunnir}{PR-mælingar hjálpa nemendum að spyrja: ,,Hvar stöndum við núna?'' Matskvarðar og dæmi hjálpa þeim að spyrja: ,,Hvernig lítur góð vinna út?'' Næsta lota spyr síðan: ,,Hvað gerum við öðruvísi næst?''}
+
+\section{Umræður}
+Endurhönnunin opnar á umræðu um hvernig brúa megi bilið milli byrjendakennslu í tæknilegum greinum og þeirra faglegu krafna sem mæta nemendum síðar í námi og starfi. Með því að færa áhersluna frá einangruðum verkfærum yfir í heildstæð vinnubrögð má styrkja tengsl námsins við raunveruleg verkefni. Rauntenging er hér skilgreind út frá verkefnum, gögnum, verkferlum og faglegum gæðakröfum fremur en beinni aðkomu fyrirtækis \citep{Palmer2004AuthenticityAssessment,VillarroelEtAl2018AuthenticAssessment}. Opin gögn gera nemendum þannig kleift að vinna með raunverulegar upplýsingar, meta uppruna þeirra og takmarkanir og byggja upp endurtakanlegar og trúverðugar greiningarafurðir. Í því felst hér hugmyndin um starfshæfa gagnavinnu.
+
+%Greinin lýsir endurhönnun Upplýsingaverkfræði með áherslu á hvernig kynna má slík fagleg vinnubrögð stigvaxandi snemma í námsleiðinni. Fjallað er um fræðilegan rökstuðning, uppbyggingu námskeiðsins, endurgjafarlotur og notkun sýnilegra ferlisgagna til að styðja þróun vinnubragða nemenda.
+
+Kerfisbundið mat á áhrifum endurhönnunarinnar er næsta skref, meðal annars með því að skoða hvernig nemendur skilja endurgjöf og gæði og hvernig vinnubrögð þeirra þróast yfir loturnar sex og ör-Capstone.
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document}

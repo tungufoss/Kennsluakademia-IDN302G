@@ -1,0 +1,42 @@
+\usetikzlibrary{positioning,calc}
+\begin{tikzpicture}[
+  node distance=0.35cm and 0.25cm,
+  module/.style={draw=darkblue, fill=lightblue, rounded corners=2pt, minimum width=1.7cm, minimum height=0.85cm, align=center, font=\small\bfseries},
+  capstone/.style={draw=lightblue, fill=darkblue, text=white, rounded corners=2pt, minimum width=3.5cm, minimum height=0.85cm, align=center, font=\small\bfseries},
+  note/.style={align=center, font=\small, text=darkblue},
+  arrow/.style={->, thick, draw=darkblue},
+  practice/.style={draw=lightblue, fill=lightblue!8, rounded corners=2pt, align=center, font=\small}
+]
+    \node[module] (m1) {L1};
+    \node[module, right=of m1] (m2) {L2};
+    \node[module, right=of m2] (m3) {L3};
+    \node[module, right=of m3] (m4) {L4};
+    \node[module, right=of m4] (m5) {L5};
+    \node[module, right=of m5] (m6) {L6};
+  
+    \draw[arrow] (m1) -- (m2);
+    \draw[arrow] (m2) -- (m3);
+    \draw[arrow] (m3) -- (m4);
+    \draw[arrow] (m4) -- (m5);
+    \draw[arrow] (m5) -- (m6);
+  
+    \node[practice, minimum width=12.0cm, minimum height=0.7cm] (practiceband) at (5.5,-1.25) {L1--L6: endurtekin fagleg vinnubrögð: endurskoða $\cdot$ samþætta $\cdot$ bæta};
+
+    \node[capstone, right=of practiceband] (m7) {L7 ör-Capstone};
+
+    \draw[darkblue, thick] (m1.south) -- node[right, font=\scriptsize] {endurgjöf} +(0,-0.35);
+    \draw[darkblue, thick] (m2.south) -- node[right, font=\scriptsize] {endurgjöf} +(0,-0.35);
+    \draw[darkblue, thick] (m3.south) -- node[right, font=\scriptsize] {endurgjöf} +(0,-0.35);
+    \draw[darkblue, thick] (m4.south) -- node[right, font=\scriptsize] {endurgjöf} +(0,-0.35);
+    \draw[darkblue, thick] (m5.south) -- node[right, font=\scriptsize] {endurgjöf} +(0,-0.35);
+    \draw[darkblue, thick] (m6.south) -- node[right, font=\scriptsize] {endurgjöf} +(0,-0.35);
+
+    \draw[arrow] (practiceband.east) -- (m7.west);
+
+    \node[practice,
+        below=0.5cm of m7.south east, anchor=north east,
+        minimum width=5.4cm, minimum height=0.8cm
+    ] (bi) {undirbúningur fyrir Viðskiptagreind\\\footnotesize uppsöfnuð verkefnavinna og fagleg matsdómgreind};
+
+    \draw[arrow] (m7.south) -- ($(bi.north)!0.5!(bi.north east)$);
+\end{tikzpicture}
