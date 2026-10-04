@@ -1,0 +1,76 @@
+---
+# Placeholder deck for the conference talk (HÍ RevealJS theme from tungufoss/quarto-hi).
+# Render with:  quarto render slides/index.qmd
+pagetitle: "Endurhönnun Upplýsingaverkfræði"
+lang: is
+title-theme: "Upplýsingaverkfræði (IÐN302G)"
+subtitle-highlight: "Stigvaxandi þróun faglegra vinnubragða"
+subtitle-position: below
+presenters:
+  - name: "Helga Ingimundardóttir"
+    hi-username: "helgaingim"
+    orcid: "0000-0002-2780-3546"
+    github: "tungufoss"
+    office: "VR-II"
+event-meta: "Ráðstefna Kennsluakademíu opinberu háskólanna · Veröld Háskóla Íslands"
+event-date: "20. nóvember 2026"
+watermark: img/hi/hi_logo.svg
+favicon: ../quarto/favicon.png
+format:
+  haskoli-islands-revealjs:
+    logo: img/hi/hi_named_logo-is.svg
+    footer: "Kennsluakademían 2026 · Helga Ingimundardóttir · helgaingim@hi.is"
+---
+
+{{< hi-title >}}
+
+::: {.notes}
+- Glærur í vinnslu
+:::
+
+## Meginspurning
+
+> Hvernig geta nemendur byrjað að æfa rauntengd og fagleg vinnubrögð í gagnavinnu snemma í námsleiðinni án þess að verða yfirbugaðir?
+
+::: {.notes}
+- Í vinnslu
+:::
+
+---
+
+## Hvað er sótt í Viðskiptagreind?
+
+::: {.fa-card cols=1}
+- repeat | **Samfellt verkefnasamhengi** | í vinnslu
+- comments | **Leiðsagnarmat** | í vinnslu
+- code-pull-request | **Sýnileg samvinna** | í vinnslu
+:::
+
+---
+
+## Sex stigvaxandi lotur og ör-Capstone
+
+![](../figures/progressive_modules.svg){width=88% style="display:block;margin:auto"}
+
+---
+
+## Mælingar eru vísbendingar, ekki einkunnir
+
+::: {.fa-card cols=2}
+- eye | **Sýnileg virkni** | í vinnslu
+- star | **Gæði vinnubragða og greiningar** | í vinnslu
+:::
+
+---
+
+## Spurningar? {.focus-slide}
+
+::: {.two-col}
+::: {.col}
+![](img/hi-vr-ii.jpg){.contact-photo}
+:::
+
+::: {.col}
+{{< contact-card >}}
+:::
+:::

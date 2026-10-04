@@ -1,0 +1,16 @@
+# Quarto build output (article.qmd)
+/.quarto/
+/article.html
+/article_files/
+/slides/index.html
+/slides/index_files/
+/slides/.quarto/
+
+# LaTeX build files
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+/_site/

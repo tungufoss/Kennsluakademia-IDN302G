@@ -1,0 +1,35 @@
+<!-- File: quarto/title-block.html
+     HTML title block mirroring \maketitle and the page header in kennsluakademia_conf.cls -->
+<header id="title-block-header" class="ka-title-block ka-sticky">
+  <div class="ka-masthead">
+    <img class="ka-logo" src="kennsluakademia.png" alt="Kennsluakademía">
+    <p class="ka-conference">$if(conference)$$conference$$endif$$if(address)$, $address$$endif$$if(date)$ $date$$endif$</p>
+  </div>
+
+  <h1 class="title">$title$</h1>
+$if(subtitle)$
+  <p class="subtitle lead">$subtitle$</p>
+$endif$
+</header>
+
+<div class="ka-title-meta">
+$if(by-author)$
+  <p class="ka-authors">
+$for(by-author)$
+    <span class="ka-author">$it.name.literal$$if(numbered-affiliations)$<sup>$for(it.affiliations)$$it.number$$sep$,$endfor$</sup>$endif$$if(it.orcid)$<a class="ka-orcid" href="https://orcid.org/$it.orcid$" title="ORCID: $it.orcid$" aria-label="ORCID $it.name.literal$"><i class="fa-brands fa-orcid"></i></a>$endif$</span>$sep$,
+$endfor$
+  </p>
+$endif$
+
+$if(by-affiliation)$
+  <ul class="ka-affiliations">
+$for(by-affiliation)$
+    <li>$if(numbered-affiliations)$<sup>$it.number$</sup> $endif$$if(it.department)$$it.department$, $endif$$it.name$</li>
+$endfor$
+  </ul>
+$endif$
+
+$if(keywords)$
+  <p class="ka-keywords"><em>Lykilorð</em> – $for(keywords)$$keywords$$sep$, $endfor$</p>
+$endif$
+</div>

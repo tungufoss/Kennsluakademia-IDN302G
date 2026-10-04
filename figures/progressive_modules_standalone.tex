@@ -1,0 +1,14 @@
+% Builds figures/progressive_modules.svg (web version of progressive_modules_figure.tikz)
+% with the fonts and colours of kennsluakademia_conf.cls. From the figures/ folder:
+%   pdflatex progressive_modules_standalone.tex
+%   pdftocairo -svg progressive_modules_standalone.pdf progressive_modules.svg
+\documentclass[tikz,border=2pt]{standalone}
+\usepackage[T1]{fontenc}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[icelandic]{babel}
+\definecolor{lightblue}{HTML}{83BDBA}
+\definecolor{darkblue}{HTML}{1C3E64}
+\begin{document}
+\input{../progressive_modules_figure.tikz}
+\end{document}
