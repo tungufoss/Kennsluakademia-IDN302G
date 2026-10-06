@@ -28,6 +28,8 @@ jobs:
         uses: quarto-dev/quarto-actions/setup@v2
         with:
           tinytex: true
+        env:
+          GH_TOKEN: ${{ github.token }}
 
       - name: Render PDF and HTML
         run: quarto render article.qmd
