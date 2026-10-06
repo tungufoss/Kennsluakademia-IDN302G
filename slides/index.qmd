@@ -139,7 +139,6 @@ Markmiðið er ekki aðeins að bæta eitt námskeið. Vinnubrögðin eiga að n
 ```{=html}
 <h2>Takk fyrir</h2>
 <h3>Spurningar?</h3>
-<p><strong>Fagleg vinnubrögð þróast með æfingu, ábyrgð og endurgjöf.</strong></p>
 ```
 
 {{< contact-card >}}
