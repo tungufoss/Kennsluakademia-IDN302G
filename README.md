@@ -6,11 +6,9 @@ Iðnaðarverkfræði-, vélaverkfræði- og tölvunarfræðideild (IVT), Háskó
 Ráðstefna Kennsluakademíu opinberu háskólanna, Saga, Háskóli Íslands, 20. nóvember 2026
 
 - **Web version:** <https://tungufoss.github.io/Kennsluakademia-IDN302G/>
-- **PDF (copy):** [article.pdf](article.pdf)
 - **Slides:** <https://tungufoss.github.io/Kennsluakademia-IDN302G/slides/>
+- **Published paper (PDF):** <https://kennsluakademia.hi.is/wp-content/uploads/2026/11/Conf_Kennsluakademia_2026_Upplysingaverkfraedi_helgaingim-1.pdf>
 - **Conference 2026:** <https://kennsluakademia.hi.is/radstefna-kennsluakademiunnar/>
-- **Ský conference:** <https://www.sky.is/vidburdur/3168-2026-vidburdur-1118>
-- **Ský slides:** <https://tungufoss.github.io/Kennsluakademia-erindrekar/slides/sky.html>
 - **Course website:** <https://hi-idn.github.io/IDN302G/>
 
 ## Útdráttur
@@ -19,17 +17,16 @@ Greinin lýsir endurhönnun Upplýsingaverkfræði með áherslu á hvernig kynn
 **Lykilorð:** upplýsingaverkfræði, rauntengt nám, fagleg vinnubrögð, stigvaxandi nám, leiðsagnarmat
 
 ## Vinsamlega vitnið í þetta verk sem
-Ingimundardóttir, H. (2026). Endurhönnun Upplýsingaverkfræði: Stigvaxandi þróun faglegra vinnubragða. *Ráðstefna Kennsluakademíu opinberu háskólanna*, Saga, Háskóli Íslands, Reykjavík. <https://tungufoss.github.io/Kennsluakademia-IDN302G/>
+Ingimundardóttir, Helga. 2026. „Endurhönnun Upplýsingaverkfræði: Stigvaxandi þróun faglegra vinnubragða.“ *Ráðstefna Kennsluakademíu opinberu háskólanna*, Saga, Háskóli Íslands, Reykjavík, 20. nóvember 2026. <https://kennsluakademia.hi.is/wp-content/uploads/2026/11/Conf_Kennsluakademia_2026_Upplysingaverkfraedi_helgaingim-1.pdf>.
 
 ```bibtex
-@inproceedings{Ingimundardottir2026Kennsluakademia,
-  author    = {Ingimundardóttir, Helga},
-  title     = {Endurhönnun Upplýsingaverkfræði: Stigvaxandi þróun faglegra vinnubragða},
+@inproceedings{ingimundardottir2026,
+  author = {Ingimundardóttir, Helga},
+  title = {Endurhönnun Upplýsingaverkfræði: Stigvaxandi þróun faglegra vinnubragða},
   booktitle = {Ráðstefna Kennsluakademíu opinberu háskólanna},
-  address   = {Saga, Háskóli Íslands, Reykjavík},
-  month     = nov,
-  year      = {2026},
-  url       = {https://tungufoss.github.io/Kennsluakademia-IDN302G/}
+  date = {2026-11-20},
+  address = {Saga, Háskóli Íslands, Reykjavík},
+  url = {https://kennsluakademia.hi.is/wp-content/uploads/2026/11/Conf_Kennsluakademia_2026_Upplysingaverkfraedi_helgaingim-1.pdf}
 }
 ```
 

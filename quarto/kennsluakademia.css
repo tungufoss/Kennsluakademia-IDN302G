@@ -7,10 +7,14 @@
   --ka-lime: #A6CE39;
 }
 
-/* Links in dark blue, as with \hypersetup in the class */
+/* Links in the HÍ style blue (same as the slides) */
 #quarto-document-content a,
-#quarto-appendix a {
-  color: var(--ka-darkblue);
+#quarto-appendix a,
+#quarto-margin-sidebar a,
+.quarto-title-meta a {
+  color: #10099F;
+  text-decoration-color: var(--ka-lightblue);
+  text-underline-offset: 2px;
 }
 
 /* Page header: logo and conference line in light blue */
@@ -140,4 +144,12 @@
 }
 .pub-note p {
   margin: 0;
+}
+
+
+.ka-cite pre {
+  background: #F5F5F5;
+  border-left: 4px solid var(--ka-lightblue);
+  padding: .75rem 1rem;
+  white-space: pre-wrap;
 }

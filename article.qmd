@@ -24,12 +24,6 @@ affiliations:
     department: Iðnaðarverkfræði-, vélaverkfræði- og tölvunarfræðideild (IVT)
     name: Háskóli Íslands
 bibliography: references.bib
-citation:
-  type: paper-conference
-  container-title: Ráðstefna Kennsluakademíu opinberu háskólanna
-  publisher-place: Saga, Háskóli Íslands, Reykjavík
-  issued: 2026
-  url: https://tungufoss.github.io/Kennsluakademia-IDN302G/
 filters:
   - quarto/kennsluakademia.lua
 format:
@@ -45,9 +39,7 @@ format:
     csl: quarto/apa.csl
     link-citations: true
     reference-section-title: Tilvísanir
-    appendix-cite-as: display
     language:
-      appendix-attribution-cite-as: "Vinsamlega vitnið í þetta verk sem:"
       other-links-title: Aðrar krækjur
     css: quarto/kennsluakademia.css
     template-partials:
@@ -56,26 +48,20 @@ format:
       - text: |
           <link rel="icon" type="image/png" href="quarto/favicon.png">
     other-links:
-      - text: Afrit (PDF)
-        icon: file-earmark-pdf
-        href: article.pdf
-      - text: Ráðstefnan 2026
-        icon: calendar-event
-        href: https://kennsluakademia.hi.is/radstefna-kennsluakademiunnar/
       - text: Glærur
         icon: easel
         href: slides/
-      - text: Ráðstefna Ský
+      - text: Útgefið erindi
+        icon: file-earmark-pdf
+        href: https://kennsluakademia.hi.is/wp-content/uploads/2026/11/Conf_Kennsluakademia_2026_Upplysingaverkfraedi_helgaingim-1.pdf
+      - text: Ráðstefna Kennsluakademíu
         icon: calendar-event
-        href: https://www.sky.is/vidburdur/3168-2026-vidburdur-1118
-      - text: Glærur Ský
-        icon: easel
-        href: https://tungufoss.github.io/Kennsluakademia-erindrekar/slides/sky.html
+        href: https://kennsluakademia.hi.is/radstefna-kennsluakademiunnar/
 ---
 
 :::::: {.content-visible when-format="html"}
 ::: {.pub-note}
-Erindið var flutt á [Ráðstefnu Kennsluakademíu opinberu háskólanna 2026](https://kennsluakademia.hi.is/radstefna-kennsluakademiunnar/) í Sögu, Háskóla Íslands, 20. nóvember 2026: Málstofa 1: Gervigreind og ábyrgð í námi, stofa S-261, kl. 9:00–10:30. [Afrit (PDF)](article.pdf) · [Glærur](slides/)
+Erindið var flutt á [Ráðstefnu Kennsluakademíu opinberu háskólanna 2026](https://kennsluakademia.hi.is/radstefna-kennsluakademiunnar/) í Sögu, Háskóla Íslands, 20. nóvember 2026: Málstofa 6: Starfstengd hæfni og námsmat, stofa S-261, kl. 14:30–16:00. [Útgefið erindi (PDF)](https://kennsluakademia.hi.is/wp-content/uploads/2026/11/Conf_Kennsluakademia_2026_Upplysingaverkfraedi_helgaingim-1.pdf) · [Glærur](slides/)
 :::
 ::::::
 
@@ -120,7 +106,7 @@ Sjöunda lotan er ör-Capstone þar sem nemendur endurskoða, tengja saman og b�
 ```
 
 ::: {.content-visible when-format="html"}
-![Yfirlit yfir sex stigvaxandi lotur Upplýsingaverkfræði og samþættandi ör-Capstone-lotu.](figures/progressive_modules.svg){#fig-progressive-modules fig-alt="Sex lotur, L1 til L6, í röð með endurgjöf eftir hverja lotu. Endurtekin fagleg vinnubrögð í lotunum leiða að L7 ör-Capstone, sem er undirbúningur fyrir Viðskiptagreind."}
+![Yfirlit yfir sex stigvaxandi lotur Upplýsingaverkfræði og samþættandi ör-Capstone-lotu.](figures/progressive_modules.svg){#fig-progressive-modules width=100% fig-alt="Sex lotur, L1 til L6, í röð með endurgjöf eftir hverja lotu. Endurtekin fagleg vinnubrögð í lotunum leiða að L7 ör-Capstone, sem er undirbúningur fyrir Viðskiptagreind."}
 :::
 
 # Sýnileg framvinda og gæðaviðmið
@@ -148,3 +134,29 @@ PR-mælingar hjálpa nemendum að spyrja: „Hvar stöndum við núna?” Matskv
 Endurhönnunin opnar á umræðu um hvernig brúa megi bilið milli byrjendakennslu í tæknilegum greinum og þeirra faglegu krafna sem mæta nemendum síðar í námi og starfi. Með því að færa áhersluna frá einangruðum verkfærum yfir í heildstæð vinnubrögð má styrkja tengsl námsins við raunveruleg verkefni. Rauntenging er hér skilgreind út frá verkefnum, gögnum, verkferlum og faglegum gæðakröfum fremur en beinni aðkomu fyrirtækis [@Palmer2004AuthenticityAssessment; @VillarroelEtAl2018AuthenticAssessment]. Opin gögn gera nemendum þannig kleift að vinna með raunverulegar upplýsingar, meta uppruna þeirra og takmarkanir og byggja upp endurtakanlegar og trúverðugar greiningarafurðir. Í því felst hér hugmyndin um starfshæfa gagnavinnu.
 
 Kerfisbundið mat á áhrifum endurhönnunarinnar er næsta skref, meðal annars með því að skoða hvernig nemendur skilja endurgjöf og gæði og hvernig vinnubrögð þeirra þróast yfir loturnar sex og ör-Capstone.
+
+::: {#refs}
+:::
+
+:::::: {.content-visible when-format="html"}
+::: {.ka-cite}
+## Tilvitnun {.unnumbered}
+
+Vinsamlega vitnið í þetta verk sem:
+
+Ingimundardóttir, Helga. 2026. „Endurhönnun Upplýsingaverkfræði: Stigvaxandi þróun faglegra vinnubragða.“ *Ráðstefna Kennsluakademíu opinberu háskólanna*, Saga, Háskóli Íslands, Reykjavík, 20. nóvember 2026. <https://kennsluakademia.hi.is/wp-content/uploads/2026/11/Conf_Kennsluakademia_2026_Upplysingaverkfraedi_helgaingim-1.pdf>.
+
+BibTeX tilvitnun:
+
+```
+@inproceedings{ingimundardottir2026,
+  author = {Ingimundardóttir, Helga},
+  title = {Endurhönnun Upplýsingaverkfræði: Stigvaxandi þróun faglegra vinnubragða},
+  booktitle = {Ráðstefna Kennsluakademíu opinberu háskólanna},
+  date = {2026-11-20},
+  address = {Saga, Háskóli Íslands, Reykjavík},
+  url = {https://kennsluakademia.hi.is/wp-content/uploads/2026/11/Conf_Kennsluakademia_2026_Upplysingaverkfraedi_helgaingim-1.pdf}
+}
+```
+:::
+::::::
