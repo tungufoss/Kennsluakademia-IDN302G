@@ -3,7 +3,8 @@
 **Helga Ingimundardóttir** ([ORCID 0000-0002-2780-3546](https://orcid.org/0000-0002-2780-3546))
 Iðnaðarverkfræði-, vélaverkfræði- og tölvunarfræðideild (IVT), Háskóli Íslands
 
-Ráðstefna Kennsluakademíu opinberu háskólanna, Saga, Háskóli Íslands, 20. nóvember 2026
+[Ráðstefna Kennsluakademíu opinberu háskólanna 2026](https://kennsluakademia.hi.is/radstefna-kennsluakademiunnar/), Saga, Háskóli Íslands, 20. nóvember 2026  
+Málstofa 6: **Starfstengd hæfni og námsmat**, S-261, kl. 14:30–16:00
 
 - **Web version:** <https://tungufoss.github.io/Kennsluakademia-IDN302G/>
 - **Slides:** <https://tungufoss.github.io/Kennsluakademia-IDN302G/slides/>
