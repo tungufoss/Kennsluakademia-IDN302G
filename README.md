@@ -6,8 +6,11 @@ Iðnaðarverkfræði-, vélaverkfræði- og tölvunarfræðideild (IVT), Háskó
 Ráðstefna Kennsluakademíu opinberu háskólanna, Veröld Háskóla Íslands, 20. nóvember 2026
 
 - **Web version:** <https://tungufoss.github.io/Kennsluakademia-IDN302G/>
-- **PDF:** [article.pdf](article.pdf)
-- **Slides:** <https://tungufoss.github.io/Kennsluakademia-IDN302G/slides/> (placeholder, in progress)
+- **PDF (copy):** [article.pdf](article.pdf)
+- **Slides:** <https://tungufoss.github.io/Kennsluakademia-IDN302G/slides/>
+- **Conference 2026:** <https://kennsluakademia.hi.is/radstefna-kennsluakademiunnar/>
+- **Ský conference:** <https://www.sky.is/vidburdur/3168-2026-vidburdur-1118>
+- **Ský slides:** <https://tungufoss.github.io/Kennsluakademia-erindrekar/slides/sky.html>
 - **Course website:** <https://hi-idn.github.io/IDN302G/>
 
 ## Útdráttur
