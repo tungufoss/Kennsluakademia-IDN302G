@@ -1,23 +1,27 @@
 # Endurhönnun Upplýsingaverkfræði: Stigvaxandi þróun faglegra vinnubragða
 
-**Helga Ingimundardóttir** ([ORCID 0000-0002-2780-3546](https://orcid.org/0000-0002-2780-3546))
-Iðnaðarverkfræði-, vélaverkfræði- og tölvunarfræðideild (IVT), Háskóli Íslands
+**Helga Ingimundardóttir** ([ORCID 0000-0002-2780-3546](https://orcid.org/0000-0002-2780-3546))  
+Iðnaðarverkfræði-, vélaverkfræði- og tölvunarfræðideild, Háskóli Íslands
 
 [Ráðstefna Kennsluakademíu opinberu háskólanna 2026](https://kennsluakademia.hi.is/radstefna-kennsluakademiunnar/), Saga, Háskóli Íslands, 20. nóvember 2026  
 Málstofa 6: **Starfstengd hæfni og námsmat**, S-261, kl. 14:30–16:00
 
-- **Web version:** <https://tungufoss.github.io/Kennsluakademia-IDN302G/>
-- **Slides:** <https://tungufoss.github.io/Kennsluakademia-IDN302G/slides/>
-- **Published paper (PDF):** <https://kennsluakademia.hi.is/wp-content/uploads/2026/11/Conf_Kennsluakademia_2026_Upplysingaverkfraedi_helgaingim-1.pdf>
-- **Conference 2026:** <https://kennsluakademia.hi.is/radstefna-kennsluakademiunnar/>
-- **Course website:** <https://hi-idn.github.io/IDN302G/>
+## Tengt efni
+
+- **Vefútgáfa:** [Kennsluakademía – erindið](https://tungufoss.github.io/Kennsluakademia-IDN302G/)
+- **Glærur:** [slides/](https://tungufoss.github.io/Kennsluakademia-IDN302G/slides/)
+- **Útgefið erindi (PDF):** [Conf_Kennsluakademia_2026_Upplysingaverkfraedi_helgaingim-1.pdf](https://kennsluakademia.hi.is/wp-content/uploads/2026/11/Conf_Kennsluakademia_2026_Upplysingaverkfraedi_helgaingim-1.pdf)
+- **Ráðstefna Kennsluakademíu:** [radstefna-kennsluakademiunnar](https://kennsluakademia.hi.is/radstefna-kennsluakademiunnar/)
+- **Námskeiðsvefur:** [hi-idn.github.io/IDN302G](https://hi-idn.github.io/IDN302G/)
 
 ## Útdráttur
+
 Greinin lýsir endurhönnun Upplýsingaverkfræði með áherslu á hvernig kynna má fagleg vinnubrögð stigvaxandi snemma í námsleiðinni. Fjallað er um fræðilegan rökstuðning, uppbyggingu námskeiðsins, endurgjafarlotur og notkun sýnilegra ferlisgagna til að styðja þróun vinnubragða nemenda.
 
 **Lykilorð:** upplýsingaverkfræði, rauntengt nám, fagleg vinnubrögð, stigvaxandi nám, leiðsagnarmat
 
 ## Vinsamlega vitnið í þetta verk sem
+
 Ingimundardóttir, Helga. 2026. „Endurhönnun Upplýsingaverkfræði: Stigvaxandi þróun faglegra vinnubragða.“ *Ráðstefna Kennsluakademíu opinberu háskólanna*, Saga, Háskóli Íslands, Reykjavík, 20. nóvember 2026. <https://kennsluakademia.hi.is/wp-content/uploads/2026/11/Conf_Kennsluakademia_2026_Upplysingaverkfraedi_helgaingim-1.pdf>.
 
 ```bibtex
@@ -46,5 +50,6 @@ The figure is drawn in TikZ in [progressive_modules_figure.tikz](progressive_mod
 
 The layout comes from the [Kennsluakademía conference template](https://github.com/HI-IDN/Conf-Kennsluakademia), which explains the setup in more detail.
 
-## License
-MIT, see [LICENCE](LICENCE).
+## Leyfi
+
+MIT. Sjá [LICENCE](LICENCE).
