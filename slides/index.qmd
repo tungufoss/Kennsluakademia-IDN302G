@@ -10,7 +10,7 @@ presenters:
     orcid: "0000-0002-2780-3546"
     github: "tungufoss"
     office: "VR-II"
-event-meta: "Ráðstefna Kennsluakademíu opinberu háskólanna · Veröld Háskóla Íslands"
+event-meta: "Ráðstefna Kennsluakademíu opinberu háskólanna · Saga, Háskóli Íslands"
 event-date: "20. nóvember 2026"
 watermark: img/hi/hi_logo.svg
 favicon: ../quarto/favicon.png

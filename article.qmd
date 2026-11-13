@@ -4,7 +4,7 @@
 # the generated article.tex) and a web version in the HÍ look.  Render both with:  quarto render article.qmd
 title: "Endurhönnun Upplýsingaverkfræði: Stigvaxandi þróun faglegra vinnubragða"
 conference: Ráðstefna Kennsluakademíu opinberu háskólanna
-address: Veröld Háskóla Íslands
+address: Saga, Háskóli Íslands
 date: 2026-11-20
 date-format: "D. MMMM YYYY"
 lang: is
@@ -27,7 +27,7 @@ bibliography: references.bib
 citation:
   type: paper-conference
   container-title: Ráðstefna Kennsluakademíu opinberu háskólanna
-  publisher-place: Veröld Háskóla Íslands, Reykjavík
+  publisher-place: Saga, Háskóli Íslands, Reykjavík
   issued: 2026
   url: https://tungufoss.github.io/Kennsluakademia-IDN302G/
 filters:
@@ -73,7 +73,11 @@ format:
         href: https://tungufoss.github.io/Kennsluakademia-erindrekar/slides/sky.html
 ---
 
+:::::: {.content-visible when-format="html"}
+::: {.pub-note}
 Erindið var flutt á [Ráðstefnu Kennsluakademíu opinberu háskólanna 2026](https://kennsluakademia.hi.is/radstefna-kennsluakademiunnar/) í Sögu, Háskóla Íslands, 20. nóvember 2026: Málstofa 1: Gervigreind og ábyrgð í námi, stofa S-261, kl. 9:00–10:30. [Afrit (PDF)](article.pdf) · [Glærur](slides/)
+:::
+::::::
 
 # Inngangur
 

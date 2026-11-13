@@ -3,7 +3,7 @@
 **Helga Ingimundardóttir** ([ORCID 0000-0002-2780-3546](https://orcid.org/0000-0002-2780-3546))
 Iðnaðarverkfræði-, vélaverkfræði- og tölvunarfræðideild (IVT), Háskóli Íslands
 
-Ráðstefna Kennsluakademíu opinberu háskólanna, Veröld Háskóla Íslands, 20. nóvember 2026
+Ráðstefna Kennsluakademíu opinberu háskólanna, Saga, Háskóli Íslands, 20. nóvember 2026
 
 - **Web version:** <https://tungufoss.github.io/Kennsluakademia-IDN302G/>
 - **PDF (copy):** [article.pdf](article.pdf)
@@ -19,14 +19,14 @@ Greinin lýsir endurhönnun Upplýsingaverkfræði með áherslu á hvernig kynn
 **Lykilorð:** upplýsingaverkfræði, rauntengt nám, fagleg vinnubrögð, stigvaxandi nám, leiðsagnarmat
 
 ## Vinsamlega vitnið í þetta verk sem
-Ingimundardóttir, H. (2026). Endurhönnun Upplýsingaverkfræði: Stigvaxandi þróun faglegra vinnubragða. *Ráðstefna Kennsluakademíu opinberu háskólanna*, Veröld Háskóla Íslands, Reykjavík. <https://tungufoss.github.io/Kennsluakademia-IDN302G/>
+Ingimundardóttir, H. (2026). Endurhönnun Upplýsingaverkfræði: Stigvaxandi þróun faglegra vinnubragða. *Ráðstefna Kennsluakademíu opinberu háskólanna*, Saga, Háskóli Íslands, Reykjavík. <https://tungufoss.github.io/Kennsluakademia-IDN302G/>
 
 ```bibtex
 @inproceedings{Ingimundardottir2026Kennsluakademia,
   author    = {Ingimundardóttir, Helga},
   title     = {Endurhönnun Upplýsingaverkfræði: Stigvaxandi þróun faglegra vinnubragða},
   booktitle = {Ráðstefna Kennsluakademíu opinberu háskólanna},
-  address   = {Veröld Háskóla Íslands, Reykjavík},
+  address   = {Saga, Háskóli Íslands, Reykjavík},
   month     = nov,
   year      = {2026},
   url       = {https://tungufoss.github.io/Kennsluakademia-IDN302G/}
