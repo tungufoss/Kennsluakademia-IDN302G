@@ -35,20 +35,14 @@ Ingimundardóttir, Helga. 2026. „Endurhönnun Upplýsingaverkfræði: Stigvaxa
 }
 ```
 
-## Building
-The paper is written once, in [article.qmd](article.qmd). [Quarto](https://quarto.org/) turns it into both the PDF and the web version:
+## Smíði
 
 ```bash
 quarto render article.qmd
+quarto render slides/index.qmd
 ```
 
-This regenerates `article.tex`, `article.pdf` and `article.html`. Edit `article.qmd`, not `article.tex`, because every render overwrites it. Pushing to `main` publishes the web version (with the PDF) to GitHub Pages.
-
-The slides are a Quarto RevealJS deck in [slides/index.qmd](slides/index.qmd), using the HÍ slide theme from [tungufoss/quarto-hi](https://github.com/tungufoss/quarto-hi). Render them with `quarto render slides/index.qmd`.
-
-The figure is drawn in TikZ in [progressive_modules_figure.tikz](progressive_modules_figure.tikz). The PDF uses it directly; the web version uses [figures/progressive_modules.svg](figures/progressive_modules.svg), so if you change the figure, rebuild the SVG with the commands in [figures/progressive_modules_standalone.tex](figures/progressive_modules_standalone.tex).
-
-The layout comes from the [Kennsluakademía conference template](https://github.com/HI-IDN/Conf-Kennsluakademia), which explains the setup in more detail.
+Push á `main` birtir síðuna á GitHub Pages.
 
 ## Leyfi
 
