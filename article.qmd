@@ -135,10 +135,10 @@ Endurhönnunin opnar á umræðu um hvernig brúa megi bilið milli byrjendakenn
 
 Kerfisbundið mat á áhrifum endurhönnunarinnar er næsta skref, meðal annars með því að skoða hvernig nemendur skilja endurgjöf og gæði og hvernig vinnubrögð þeirra þróast yfir loturnar sex og ör-Capstone.
 
+:::::: {.content-visible when-format="html"}
 ::: {#refs}
 :::
 
-:::::: {.content-visible when-format="html"}
 ::: {.ka-cite}
 ## Tilvitnun {.unnumbered}
 
