@@ -113,7 +113,12 @@ end
 -- Optional family prefix:  [brands] spotify | …  or  [regular] heart | …
 -- Default family is fa-solid.
 local function fa_item_html(_, blocks)
-  local text = pandoc.utils.stringify(blocks)
+  -- keep inline code and emphasis as markdown so md_inline can render <code> / <em>
+  local walked = pandoc.Blocks(blocks):walk({
+    Code = function(c) return pandoc.Str("`" .. c.text .. "`") end,
+    Emph = function(e) return pandoc.Str("_" .. pandoc.utils.stringify(e.content) .. "_") end,
+  })
+  local text = pandoc.utils.stringify(walked)
 
   -- Split on | into all segments
   local segs = {}
@@ -153,7 +158,13 @@ local function fa_item_html(_, blocks)
     local seg = segs[i]
     local bullet  = seg:match("^%*%s*(.+)$") or seg:match("^%-+%s*(.+)$")
     local formula = seg:match("^~%s*(.+)$")
-    if bullet and bullet ~= "" then
+    local refnote = seg:match("^>%s*(.+)$")
+    local notetxt = seg:match("^>>%s*(.+)$")
+    if notetxt and notetxt ~= "" then
+      table.insert(formula_lines, '<p class="fa-card-ref fa-card-ref--note">' .. md_inline(notetxt) .. "</p>")
+    elseif refnote and refnote ~= "" then
+      table.insert(formula_lines, '<p class="fa-card-ref">' .. md_inline(refnote) .. "</p>")
+    elseif bullet and bullet ~= "" then
       table.insert(list_items, "<li>" .. md_inline(bullet) .. "</li>")
     elseif formula and formula ~= "" then
       table.insert(formula_lines, '<p class="card-formula">' .. render_formula(formula) .. "</p>")

@@ -16,8 +16,41 @@ watermark: img/hi/hi_logo.svg
 favicon: ../quarto/favicon.png
 format:
   haskoli-islands-revealjs:
+    slide-number: "c/t"
+    show-slide-number: all
+    include-in-header:
+      - text: |
+          <style>
+          .reveal .slide-logo{left:auto!important;right:92px!important;width:74px!important;height:36px!important;object-fit:contain!important;top:auto!important;bottom:11px!important;transform:none!important}
+          .reveal .footer{box-sizing:border-box!important;padding-right:210px!important}
+          .reveal .context-box{margin:.9em 0 0;padding:.6em 1.1em;background:rgba(45,210,192,.18);border-left:7px solid #2DD2C0;color:#10099F;font-weight:500;line-height:1.3;font-size:.85em}
+          .reveal .context-box .hl{background:#2DD2C0;color:#10099F;padding:.02em .2em;font-weight:inherit}
+          .reveal .context-box.tight{margin:0}
+          .reveal .context-box.tight ul{margin:.4em 0 .5em}
+          .reveal .context-box.tight p{margin:0}
+          .reveal .context-box.tight li{margin:.1em 0}
+          .reveal .icon-list{list-style:none;margin:.45em 0 .55em!important;padding:0}
+          .reveal .icon-list li{display:flex;align-items:baseline;gap:.5em;margin:.2em 0}
+          .reveal .icon-list i{color:#10099F;font-size:.9em}
+          .reveal section#stigvaxandi-verkefnalotur .fa-card{margin-bottom:10px}
+          .reveal .slide-subtitle{color:#10099F;font-style:normal;font-size:.8em;margin-top:.8em}
+          .reveal .slide-subtitle a,.reveal .slide-subtitle a:visited{color:#10099F;font-weight:700;text-decoration:underline;text-decoration-color:#2DD2C0;text-decoration-thickness:3px;text-underline-offset:4px}
+          .reveal .fa-card-ref{font-size:.7em!important;color:#7a7a7a!important;margin:.4em 0 0!important;line-height:1.3}
+          .reveal .focus-slide .closing-q{background:#FAC55B;color:#10099F;font-size:21px;line-height:1.25;font-weight:700;padding:12px 18px;margin:0 0 10px;text-align:left}
+          .reveal .fa-card-ref--note{font-style:normal;font-size:.8em!important}
+          .reveal .fa-card-ref em.emph{color:#7a7a7a!important}
+          .reveal .fa-card-body em.emph{font-style:italic!important;color:inherit!important;font-weight:inherit}
+          .reveal .lead{max-width:none!important}
+          .reveal blockquote{width:100%!important;max-width:none!important;font-size:23px!important;box-sizing:border-box}
+          .reveal .yellow-takeaway{width:fit-content;max-width:100%;margin:1em 0 0;padding:.7em 1.1em;background:#FAC55B;color:#10099F;font-weight:400;line-height:1.3;font-size:.9em}
+          .reveal .yellow-takeaway strong{font-weight:800}
+          .reveal .footer::before{content:"";position:fixed;left:auto;right:184px;top:auto;bottom:9px;width:108px;height:39px;background:url("img/logo-short.svg") center/contain no-repeat;filter:brightness(0) invert(1);z-index:101}
+          .reveal.has-logo .slide-number{left:auto!important;right:18px!important;top:auto!important;bottom:12px!important;z-index:110!important;color:#fff!important;background:transparent!important}
+          .reveal:has(.slides>section:first-child.present) .slide-number{display:none!important}
+          </style>
+
     logo: img/hi/hi_named_logo-is.svg
-    footer: "Kennsluakademían 2026 · Helga Ingimundardóttir"
+    footer: "Upplýsingaverkfræði · Helga Ingimundardóttir"
 ---
 
 {{< hi-title >}}
@@ -32,34 +65,42 @@ Nemendur þurfa að læra að vinna með gögn, greina þau saman og miðla nið
 - repeat | **Gæði** | Skjalfesta og gera vinnu endurtakanlega
 :::
 
-::: {.lead}
-Þetta er samspil tækni, greiningar og samvinnu. Nemendur læra heilt faglegt vinnuferli, ekki aðeins forritun eða eitt greiningartól.
+::: {.context-box}
+Þetta er samspil tækni, greiningar og samvinnu. Nemendur [læra heilt faglegt vinnuferli]{.hl}, ekki aðeins forritun eða ný greiningartól.
 :::
 
-> Hvernig æfa nemendur fagleg vinnubrögð snemma í námi án þess að flækjustigið verði yfirþyrmandi?
+> Hvernig æfum við nemendur í faglegum vinnubrögðum án þess að flækjustigið verði yfirþyrmandi?
 
-**Einfalda þarf inngönguna en halda gæðakröfunum.** Stuðningur er mikill í upphafi og minnkar eftir því sem sjálfstæði eykst.
+::: {.yellow-takeaway}
+**Einfalda þarf inngönguna en halda gæðakröfunum.**<br>Stuðningur er mikill í upphafi og minnkar eftir því sem sjálfstæði eykst.
+:::
 
-## Lærdómur úr Viðskiptagreind
+## Lærdómur úr Viðskiptagreind (IÐN610M)
 
 :::: {.two-col}
 ::: {.col}
-Nemendur vinna þar með flókin verkefni og raungögn frá samstarfsaðila.
+::: {.context-box .tight}
+Nemendur vinna þar með flókin verkefni og raungögn frá ytri samstarfsaðila.
 
-- **Greining:** opnar spurningar og krefjandi gögn
-- **Vinnubrögð:** GitHub, pull requests, samvinnurýni og miðlun
+```{=html}
+<ul class="icon-list">
+<li><i class="fa-solid fa-chart-line fa-fw"></i><span><strong>Greining:</strong> opnar spurningar og krefjandi gögn</span></li>
+<li><i class="fa-solid fa-code-branch fa-fw"></i><span><strong>Vinnubrögð:</strong> GitHub, pull requests, samvinnurýni og miðlun</span></li>
+</ul>
+```
 
-**Þau þurftu að læra hvort tveggja samtímis.**
+[Þau þurftu að læra hvort tveggja samtímis.]{.hl}
+:::
+
+::: {.context-box}
+Það varð kveikjan að því að færa grunnvinnubrögðin fyrr í námsleiðina.
+:::
 :::
 
 ::: {.col}
-![Nemendur þróa greiningu með gögnum, samvinnu og kóðarýni](img/professional-data-work.png){width=100% style="max-height: 390px; object-fit: cover; object-position: right center;"}
+![Nemendur þróa greiningu með gögnum, samvinnu og kóðarýni · Google Gemini](img/professional-data-work.png){width=100% style="max-height: 390px; object-fit: cover; object-position: right center;"}
 :::
 ::::
-
-::: {.lead}
-Það varð kveikjan að því að færa grunnvinnubrögðin fyrr í námsleiðina.
-:::
 
 Í Upplýsingaverkfræði æfa nemendur sama ferli fyrr með **opnum gögnum**:
 
@@ -72,11 +113,7 @@ Nemendur vinna þar með flókin verkefni og raungögn frá samstarfsaðila.
 - Miðlun
 :::
 
-## Sex stigvaxandi lotur
-
-![Sex stigvaxandi verkefnalotur](../figures/progressive_modules.svg){width=72% style="display:block;margin:auto"}
-
-**Sex lotur mynda eitt samhangandi ferli:** sömu grunnvinnubrögð endurtaka sig í nýju samhengi. Umfang eykst, stuðningur minnkar og sjálfstæði vex.
+## Stigvaxandi verkefnalotur
 
 ::: {.fa-card cols=3}
 - laptop-code | **Rýna vinnuna** | Skýrslur, gögn, kóði, pull requests og jafningjarýni
@@ -84,50 +121,45 @@ Nemendur vinna þar með flókin verkefni og raungögn frá samstarfsaðila.
 - rotate | **Nota strax** | Nemendur nýta endurgjöf í næstu lotu
 :::
 
-## Sjöunda lotan: ör-Capstone
+Þetta endurtekur sig eftir hverja lotu og tengir loturnar saman:
 
-Þetta er ekki nýtt verkefni: nemendur vinna markvisst að því í gegnum námskeiðið.
+![](img/progressive_modules.svg){.nostretch fig-alt="Sex lotur, L1 til L6, í röð með endurgjöf eftir hverja lotu. Endurtekin fagleg vinnubrögð í lotunum leiða að L7 ör-Capstone, sem er undirbúningur fyrir Viðskiptagreind." width=100% style="display:block;margin:auto"}
 
-::: {.fa-card cols=3}
-- layer-group | **Þróa** | Vinna áfram með verkefnið í lotunum
-- comments | **Nýta endurgjöf** | Skerpa greiningu og framsetningu
-- arrow-rotate-right | **Skila aftur** | Bæta og skila verkefninu í lokin
+::: {.context-box}
+**Lotur mynda eitt samhangandi ferli:** sömu grunnvinnubrögð endurtaka sig í nýju samhengi. [Umfang eykst, stuðningur minnkar og sjálfstæði vex.]{.hl}
 :::
-
-::: {.capstone-art style="margin-top: 90px; text-align: center;"}
-![Verkefnið þróast með endurgjöf og er skilað aftur í lokin](img/professional-data-work-iterate.png){height=260}
-:::
-
----
 
 ## Pull requests: sýnilegt ferli, faglegt mat
 
-Lokaskýrsla sýnir afurðina. Pull requests sýna tillögu, jafningjarýni, viðbrögð og endurskoðun.
-
-::: {.fa-card cols=3}
-- eye | **Sýnileg virkni** | Commits, pull requests og athugasemdir
-- list-check | **Gæði vinnubragða** | Afmörkun, skjalfesting og endurtekning
-- magnifying-glass-chart | **Gæði greiningar** | Aðferðir, röksemdir og niðurstöður
+::: {.fa-card cols=1}
+- code-pull-request | **Pull request (PR)** | Tillaga að breytingu á kóða sem aðrir rýna og samþykkja áður en hún er sameinuð í verkefnið. | > Ingimundardóttir, H. (2026). Using pull requests to make collaboration visible in CDIO project-based courses. _Proceedings of the 22nd International CDIO Conference_. CDIO Initiative.
 :::
 
-**Tölulegar GitHub-mælingar**—fjöldi commits, pull requests og athugasemda—eru vísbendingar, ekki einkunnir. Pull requests sýna hluta samstarfsins; fagleg viðmið og dæmi hjálpa nemendum að meta gæði og velja næstu úrbætur.
+Lokaskýrsla sýnir afurðina. PRs sýna tillögu, jafningjarýni, viðbrögð og endurskoðun.
+
+::: {.fa-card cols=3}
+- eye | **Sýnileg virkni** | Commits, pull requests og athugasemdir | >> Mælir þátttöku, ekki gæði. PRs sýna aðeins hluta samstarfsins.
+- list-check | **Gæði vinnubragða** | Afmörkun, skjalfesting og endurtekning | >> Metið með faglegum viðmiðum og dæmum.
+- magnifying-glass-chart | **Gæði greiningar** | Aðferðir, röksemdir og niðurstöður | >> Dæmi hjálpa nemendum að velja næstu úrbætur.
+:::
+
+
 
 ---
 
-## Hvert viljum við komast?
+## Brú milli byrjendakennslu og faglegra krafna
 
 Upplýsingaverkfræði á að leggja grunn að áframhaldandi þróun faglegra vinnubragða.
 
 ::: {.fa-card cols=3}
-- chart-line | **Lengra nám** | Opnari og flóknari greiningarverkefni
-- handshake | **Starfssamstarf** | Fyrirtæki og stofnanir
+- chart-line | **Flóknari verkefni** | Opnari og flóknari greiningarverkefni í áframhaldandi námi
+- handshake | **Samstarf við ytri aðila** | Undirbúa nemendur til að vinna með gögn frá fyrirtækjum og stofnunum
 - bullhorn | **Fagleg miðlun** | Rýni og niðurstöður fyrir ólíka hagaðila
 :::
 
-Markmiðið er ekki aðeins að bæta eitt námskeið. Vinnubrögðin eiga að nýtast í öðrum námskeiðum og síðar í starfi.
-
-Áhrifin þarf að meta kerfisbundið: hvernig nemendur skilja gæði, nýta endurgjöf og yfirfæra vinnubrögðin milli lota og námskeiða.
-
+::: {.context-box}
+Markmiðið er ekki aðeins að bæta eitt námskeið. [Vinnubrögðin eiga að nýtast í öðrum námskeiðum og síðar í starfi.]{.hl}
+:::
 ## {.focus-slide}
 
 ::: {.two-col}
@@ -137,8 +169,10 @@ Markmiðið er ekki aðeins að bæta eitt námskeið. Vinnubrögðin eiga að n
 
 ::: {.col}
 ```{=html}
-<h2>Takk fyrir</h2>
-<h3>Spurningar?</h3>
+<h2>Til umræðu</h2>
+<div class="closing-q">Hvernig tengjum við námið við atvinnulífið?</div>
+<div class="closing-q">Hvernig metum við starfstengda hæfni?</div>
+<div class="closing-q">Hvernig drögum við úr stuðningi án þess að slaka á gæðakröfum?</div>
 ```
 
 {{< contact-card >}}

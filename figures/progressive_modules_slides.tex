@@ -1,0 +1,14 @@
+% Slide version of progressive_modules_figure.tikz: Jost and the HÍ slide colours.
+% Build (needs XeLaTeX and the Jost font installed), from this folder:
+%   xelatex progressive_modules_slides.tex
+%   pdftocairo -svg progressive_modules_slides.pdf ../slides/img/progressive_modules.svg
+\documentclass[tikz,border=2pt]{standalone}
+\usepackage{fontspec}
+\setmainfont{Jost}
+\setsansfont{Jost}
+\renewcommand{\familydefault}{\sfdefault}
+\definecolor{lightblue}{HTML}{2DD2C0}
+\definecolor{darkblue}{HTML}{10099F}
+\begin{document}
+\input{../progressive_modules_figure.tikz}
+\end{document}
